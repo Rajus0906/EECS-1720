@@ -1,0 +1,10 @@
+def setup():
+    size(480, 120)
+
+def draw():
+    background(246,255,5)
+    if  mousePressed:
+        fill(5,236,255)
+    else:
+        fill(255,5,222)
+    ellipse(mouseX, mouseY, 80, 80)
