@@ -1,0 +1,12 @@
+function setup() {
+  createCanvas(300, 200);
+}
+
+function draw() {
+  background(255);
+  rect(150, 10, 55, 55, 0,34,255);
+  stroke(0,10,155);
+  noFill(255);
+  rect(100, 100, 60, 60, 0,43,53,2);
+  stroke(255,0,0)
+}
